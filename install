@@ -498,7 +498,6 @@ if [ ${version} -gt 4 ] && [ ${skipNet} -ne 1 ]; then
     ${confCmd} ${network}
 
     echo "Network setup for DHCP.  Rebooting..."
-    reboot
   else
     echo "It is recommended to reboot and then setup the network adapter in the openmediavault web interface."
   fi
